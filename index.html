@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax responsive landing page</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <a href="#" class="nav__logo">Mountain</a>
+            
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-menu-alt-right"></i>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Explore</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Adventure</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Discover</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Home -->
+    <div class="home">
+        <div class="parallax home__parallax home__parallax-img1" data-rellax-speed='-9'></div>
+        <div class="parallax home__parallax home__parallax-img2" data-rellax-speed='-7'></div>
+        <div class="parallax home__parallax home__parallax-img3" data-rellax-speed='-6'></div>
+        <div class="parallax home__parallax home__parallax-img4" data-rellax-speed='-3'></div>
+
+        <h1 class="parallax home__title" data-rellax-speed='-6'>Mountain</h1>
+        <span class="parallax home__subtitle" data-rellax-speed='-5'>Mountain explore</span>
+
+        <div class="home__scroll">
+            <a href="#" ><i class="bx bx-mouse"></i></a>
+        </div>
+    </div>
+    <!-- Section -->
+    <section class="l-section" id="section">
+        <div class="section">
+            <div class="section__data">
+                <h2 class="section__title">Scalling mountains</h2>
+                <p class="section__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde ad aut error. Blanditiis, deserunt asperiores.</p>
+            </div>
+            <img src="assets/img/imgm.jpg" alt="" class="section__img">
+        </div>
+    </section>
+
+
+    <!-- Rellax JS  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js" integrity="sha512-f5HTYZYTDZelxS7LEQYv8ppMHTZ6JJWglzeQmr0CVTS70vJgaJiIO15ALqI7bhsracojbXkezUIL+35UXwwGrQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <!-- GSAP JS  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
